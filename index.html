@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Thêm công việc" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Tất cả</span>
+          <span id="pending">Chưa hoàn thành</span>
+          <span id="completed">Hoàn thành</span>
+        </div>
+        <button class="clear-btn">Xóa tất cả</button>
+      </div>
+      <ul class="task-box">
+        <!-- <li class="task">
+          <label>
+            <input type="checkbox" />
+            <p>Học javascript</p>
+          </label>
+          <div class="settings">
+            <i class="uil uil-ellipsis-h"></i>
+            <ul class="task-menu">
+              <li><i class="uil uil-pen"></i>Edit</li>
+              <li><i class="uil uil-trash"></i>Delete</li>
+            </ul>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
